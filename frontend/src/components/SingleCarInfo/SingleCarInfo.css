@@ -1,0 +1,55 @@
+    .card-style {
+      width: 20rem;
+      border-radius: 8px;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    }
+    
+    .buttons-wrapper {
+      display: flex;
+      gap: 8px;
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      visibility: hidden;
+    }
+    
+    .card-style:hover .buttons-wrapper {
+      visibility: visible;
+    }
+    
+    .delete-button {
+      background-color: rgb(255, 59, 48);
+      color: white;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    
+    .delete-button:hover {
+      background-color: rgb(202, 74, 74) !important;
+    }
+    .edit-button:hover {
+      background-color: blue !important;
+    }
+    
+    .edit-button {
+      background-color: rgb(0, 123, 255);
+      color: white;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    
+    .edit-button:focus {
+      background-color: rgb(89, 148, 109);
+    }
+    
+    .card-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    

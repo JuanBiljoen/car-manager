@@ -1,0 +1,18 @@
+.filter-selection {
+  color: white;
+  background-color: #5c5c5c;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+}
+
+.sub-title-edit {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.last-input-group {
+  margin-top: 24px;
+}

@@ -1,0 +1,41 @@
+.main-wrapper {
+  padding: 48px;
+  background-color: lightgray;
+}
+
+.cars-details-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  margin-top: 24px;
+}
+
+.select-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 90%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.search-old-cars {
+  min-width: fit-content;
+  background-color: rgb(70, 130, 180);
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modified-documents {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: rgb(105, 105, 105);
+  margin-top: 16px;
+}
